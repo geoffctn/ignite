@@ -13,6 +13,9 @@ const GlobalStyles = createGlobalStyle`
     &::-webkit-scrollbar-thumb {
       background: darkgrey;
     }
+    &::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
   }
   body {
     font-family: 'Nunito', sans-serif;
@@ -22,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 3rem;
   }
   h3 {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     font-size: 1.3rem;
     color: #333;
   }

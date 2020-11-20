@@ -9,6 +9,7 @@ import { loadDetail } from '../actions/detailAction'
 const Game = ({ name, released, image, id }) => {
   // load details
   const dispatch = useDispatch()
+
   const loadDetailHandler = () => {
     dispatch(loadDetail(id))
   }
